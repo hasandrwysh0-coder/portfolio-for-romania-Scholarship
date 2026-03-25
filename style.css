@@ -294,3 +294,89 @@ nav .right a span {
   padding: 10px;
   text-align: center;
 }
+
+@media (max-width: 480px) {
+  body {
+    background-attachment: scroll;
+    padding: 0 0.55rem;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 12px 10px;
+  }
+
+  nav .left a {
+    font-size: 1rem;
+  }
+
+  nav .right a {
+    padding: 6px 8px;
+    font-size: 0.82rem;
+    margin: 2px;
+  }
+
+  nav .right a:last-child {
+    padding: 6px 10px;
+    font-size: 0.78rem;
+  }
+
+  .me {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 0 8px;
+    margin-bottom: 70px;
+  }
+
+  .me .text h2 {
+    font-size: 1.65rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .me .text p,
+  .skill-sec .text,
+  .about-sec .text,
+  .conect-sec .text p {
+    font-size: 0.94rem;
+  }
+
+  .me .headshot img {
+    width: 185px;
+    margin-bottom: 14px;
+  }
+
+  .me .text .links a {
+    padding: 5px 8px;
+    font-size: 0.78rem;
+  }
+
+  .skill-sec,
+  .about-sec,
+  .conect-sec {
+    padding: 12px;
+    margin-bottom: 20px;
+  }
+
+  .conect-sec .text {
+    flex-direction: column;
+    gap: 1rem;
+    margin: 10px 0 20px;
+  }
+
+  .conect-sec .text form input,
+  .conect-sec .text form textarea {
+    width: 100%;
+    font-size: 0.94rem;
+  }
+
+  .conect-sec .text form button {
+    width: 100%;
+  }
+
+  .conect-sec .text .links {
+    margin: 0;
+    gap: 9px;
+  }
+}
+
