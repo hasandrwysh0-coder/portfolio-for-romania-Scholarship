@@ -1,0 +1,220 @@
+<!-- This website was designed by the student Hassan Darwish,
+  to showcase some of his abilities and ambition in learning. -->
+
+<!-- 25/03/2026 -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="THIS IS A PORTFOLIO I MAKE IT FOR scholarships"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Hasan's Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="left">
+        <a href="#contact-me">Hasan drwish</a>
+      </div>
+
+      <div class="right">
+        <a
+          href="https://github.com/hasandrwysh0-coder"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-brands fa-github"></i>
+          <span>GitHub</span>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/hasan-drwish-6995bb3ab?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+
+        <a
+          href="mailto:hasandrwysh0@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-solid fa-envelope"></i>
+          <span>Email</span>
+        </a>
+      </div>
+    </nav>
+
+    <main>
+      <!-- top -->
+      <section class="me">
+        <div class="text">
+          <h2>hello, I'm Hasan 👋</h2>
+          <p>
+            I am currently on the verge of becoming a professional in the field
+            of user interface development, and I am constantly striving and
+            learning with a strong will to become a full-stack developer for
+            building, analyzing and solving web problems💪.
+          </p>
+
+          <div class="links">
+            <a href="#skills">
+              <i class="fa-solid fa-code"></i>
+              <span>skills</span></a
+            >
+            <a href="#about-me">
+              <i class="fa-solid fa-user"></i> <span>About Me</span></a
+            >
+            <a href="#contact-me">
+              <i class="fa-solid fa-envelope"></i> <span>Contact Me</span></a
+            >
+          </div>
+        </div>
+        <div class="headshot">
+          <img src="img/my_photo.jpg" alt="Hasan's headshot" />
+        </div>
+      </section>
+
+      <!-- skills -->
+      <section id="skills" class="skill-sec">
+        <h2>Skills</h2>
+        <div class="text">
+          <p>
+            I have a strong interest in web development and programming, and I
+            am actively refining my skills in building websites using HTML, CSS,
+            and JavaScript. I am also passionate about creative fields—such as
+            design and Photoshop—as well as video editing (having mastered
+            CapCut and currently good expertise in DaVinci Resolve), and
+            exploring 3D design and game development using Blender.
+          </p>
+        </div>
+
+        <div class="cells">
+          <div class="cell">
+            <img src="img/html-logo.webp" alt="HTML logo" />
+            <span>HTML</span>
+          </div>
+
+          <div class="cell">
+            <img src="img/css-logo.webp" alt="CSS logo" />
+            <span>CSS</span>
+          </div>
+
+          <div class="cell">
+            <img src="img/javascript-logo.webp" alt="JavaScript logo" />
+            <span>JavaScript</span>
+          </div>
+
+          <div class="cell">
+            <img src="img/icons8-adobe-photoshop-70.png" alt="Photoshop logo" />
+            <span>Photoshop</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- about me -->
+      <section id="about-me" class="about-sec">
+        <h2>About Me</h2>
+        <div class="text">
+          <p>
+            I am at the beginning of my journey in web development, driven by
+            strong passion and a clear ambition to grow in the technology field
+            Practically (I aspire in the future to be able to manage large
+            software projects, build integrated intelligent systems, and solve
+            problems in the older ones). I am currently focused on building my
+            skills in front-end development using HTML, CSS, and JavaScript, by
+            creating simple and clean websites. My goal is to expand into
+            back-end development in the near future, in order to become a
+            full-stack developer. I also explore creative tools such as design
+            and digital media to improve the visual quality of my work. I am
+            motivated, committed to learning, and continuously working on
+            improving my skills step by step.
+          </p>
+        </div>
+      </section>
+
+      <hr />
+
+      <!-- contact me -->
+      <section id="contact-me" class="conect-sec">
+        <h2>Contact Me:</h2>
+
+        <div class="text">
+          <p>
+            If you have any questions or advice, I would love to hear your
+            opinion with pleasure. I can see your comment by filling in these
+            fields on your right:
+          </p>
+
+          <form action="mailto:hasan.darwish@example.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Message:</label>
+            <textarea
+              id="message"
+              name="message"
+              required
+              cols="30"
+              rows="10"
+            ></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+          <div class="links">
+            <a
+              href="https://www.facebook.com/share/1AAZAJ4T4m/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-facebook"></i> <span>Facebook</span>
+            </a>
+
+            <a
+              href="https://www.instagram.com/hason_darwish?igsh=ZGx5ZDR0M2JsYXgw"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-instagram"></i> <span>Instagram</span>
+            </a>
+
+            <a
+              href="https://t.me/@hasan9982"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-telegram"></i> <span>Telegram</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
