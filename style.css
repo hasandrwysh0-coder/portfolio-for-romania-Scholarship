@@ -329,6 +329,10 @@ nav .right a span {
     margin-bottom: 70px;
   }
 
+  .me .headshot {
+    justify-content: center;
+  }
+
   .me .text h2 {
     font-size: 1.65rem;
     margin-bottom: 0.5rem;
